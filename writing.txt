@@ -1,0 +1,8 @@
+# This only runs properly in CS Academy 
+def readFile(path):
+    with open(path) as f:
+        return f.read()
+
+path = 'https://raw.githubusercontent.com/dkosbie/public/master/foo.txt'
+contents = readFile(path)
+print(contents)
